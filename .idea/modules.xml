@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ch_07/Ch_07.iml" filepath="$PROJECT_DIR$/Ch_07/Ch_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch_08/Ch_08.iml" filepath="$PROJECT_DIR$/Ch_08/Ch_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch_09/Ch_09.iml" filepath="$PROJECT_DIR$/Ch_09/Ch_09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-the-complete-reference-12ed.iml" filepath="$PROJECT_DIR$/java-the-complete-reference-12ed.iml" />
+    </modules>
+  </component>
+</project>

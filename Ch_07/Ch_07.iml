@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/AccessTest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/InnerClassDemo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Overload" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Overload2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OverloadCons" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OverloadCons2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PassObj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RetObj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaticByName" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StringDemo2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StringDemo3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TestStack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UseStatic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VarArgs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VarArgs2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VarArgs3" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
