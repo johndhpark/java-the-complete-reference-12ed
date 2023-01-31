@@ -1,4 +1,5 @@
-// Demonstrate  ordinal(), compareTo(), and equals()
+// Demonstrate ordinal(), compareTo(), and equals().
+
 // An enumeration of apple varieties
 enum Apple {
 	Jonathan, GoldenDel, RedDel, Winesap, Cortland
@@ -8,8 +9,8 @@ class EnumDemo4 {
 	public static void main(String[] args) {
 		Apple ap, ap2, ap3;
 
-		// Obtain all ordinal values using ordinal
-		System.out.println("Here are all apple constants" + " and their ordinal values.");
+		// Obtain all ordinal values using ordinal().
+		System.out.println("Here are all apple constants" + " and their ordinal values: ");
 
 		for (Apple a : Apple.values()) {
 			System.out.println(a + " " + a.ordinal());
@@ -21,9 +22,9 @@ class EnumDemo4 {
 
 		System.out.println();
 
-		// Demonstrated compareTo() and equals()
+		// Demonstrate compareTo() and equals()
 		if (ap.compareTo(ap2) < 0) {
-			System.out.println(ap + " comes before" + ap2);
+			System.out.println(ap + " comes before " + ap2);
 		}
 
 		if (ap.compareTo(ap2) > 0) {
