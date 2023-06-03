@@ -5,6 +5,9 @@ interface MyFunc<T> {
 	MyClass<T> func(T n);
 }
 
+/**
+ * ConstructorRefDemo2
+ */
 class MyClass<T> {
 	private T val;
 
@@ -13,7 +16,7 @@ class MyClass<T> {
 		val = v;
 	}
 
-	// This is the default constructor
+	// This is the default constructor.
 	MyClass() {
 		val = null;
 	}
@@ -23,16 +26,18 @@ class MyClass<T> {
 	}
 }
 
-class ConstructorRefDemo2 {
+/**
+ * ConstructorRefDemo2
+ */
+public class ConstructorRefDemo2 {
 	public static void main(String[] args) {
-
-		// Create a reference to the MyClass<T> constructor.
+		// Create a reference to the MyClass<T> constructor
 		MyFunc<Integer> myClassCons = MyClass<Integer>::new;
 
 		// Create an instance of MyClass<T> via that constructor reference.
 		MyClass<Integer> mc = myClassCons.func(100);
 
 		// Use the instance of MyClass<T> just created.
-		System.out.println("str in mc2 is " + mc.getVal());
+		System.out.println("val in mc is " + mc.getVal());
 	}
 }

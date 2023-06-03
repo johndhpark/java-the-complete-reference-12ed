@@ -13,7 +13,7 @@ class MyClass {
 		val = v;
 	}
 
-	// This is the defau lt constructor
+	// This is the default constructor.
 	MyClass() {
 		val = 0;
 	}
@@ -25,7 +25,6 @@ class MyClass {
 
 class ConstructorRefDemo {
 	public static void main(String[] args) {
-
 		// Create a reference to the MyClass constructor.
 		// Because func() in MyFunc takes an argument, new refers to the parameterized
 		// constructor in MyClass,
@@ -36,6 +35,6 @@ class ConstructorRefDemo {
 		MyClass mc = myClassCons.func(100);
 
 		// Use the instance of MyClass just created.
-		System.out.println("val in my is " + mc.getVal());
+		System.out.println("val in mc is " + mc.getVal());
 	}
 }

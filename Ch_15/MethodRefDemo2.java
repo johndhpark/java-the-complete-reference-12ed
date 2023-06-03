@@ -1,11 +1,11 @@
-// Demonstrate a method reference to an instance method
+// Demonstrate a method reference to an instance method.
 
-// A functional interface for string operations
+// A functional interface for string operations.
 interface StringFunc {
 	String func(String n);
 }
 
-// Now, this class defines an instance method called strReverse()
+// Now, this class defines an instanced method called strReverse()
 class MyStringOps {
 	String strReverse(String str) {
 		String result = "";
@@ -19,12 +19,14 @@ class MyStringOps {
 	}
 }
 
-class MethodRefDemo2 {
-	// This method has a functional interface as the type of
-	// its first parameter. Thus, it can be passed any instance
-	// oof that interface, including method references.
-
-	static String stringOp(StringFunc sf, String s) {z
+/**
+ * MethodRefDemo2
+ */
+public class MethodRefDemo2 {
+	// This method has a functional interface as the type of its first parameter.
+	// Thus,
+	// it can be passed any instance of that interface, including method references.
+	static String stringOp(StringFunc sf, String s) {
 		return sf.func(s);
 	}
 
@@ -35,11 +37,11 @@ class MethodRefDemo2 {
 		// Create a MyStringOps object.
 		MyStringOps strOps = new MyStringOps();
 
-		// Now, a method reference to the instance method strReverse
-		// is passed to stringOp().
+		// Now, a method reference to the instance method strReverse is passed to
+		// stringOp().
 		outStr = stringOp(strOps::strReverse, inStr);
 
-		System.out.println("Origianl string: " + inStr);
+		System.out.println("Original string: " + inStr);
 		System.out.println("String reversed: " + outStr);
 	}
 }

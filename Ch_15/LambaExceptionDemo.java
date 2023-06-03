@@ -1,21 +1,21 @@
-// Throws an exception from a lambda expression
+// Throw an exception from a lambda expression.
 
-interface DoubleNumbericArrayFunc {
+interface DoubleNumericArrayFunc {
 	double func(double[] n) throws EmptyArrayException;
 }
 
 class EmptyArrayException extends Exception {
 	EmptyArrayException() {
-		super("Array Empty");
+		super("Array Emnpty");
 	}
 }
 
 class LambdaExceptionDemo {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws EmptyArrayException {
 		double[] values = { 1.0, 2.0, 3.0, 4.0 };
 
 		// This block lambda computes the average of an array of doubles.
-		DoubleNumbericArrayFunc average = (n) -> {
+		DoubleNumericArrayFunc average = n -> {
 			double sum = 0;
 
 			if (n.length == 0) {
@@ -27,7 +27,7 @@ class LambdaExceptionDemo {
 			}
 
 			return sum / n.length;
-		};
+		}
 
 		System.out.println("The average is " + average.func(values));
 

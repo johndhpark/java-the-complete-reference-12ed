@@ -4,11 +4,10 @@ interface MyFunc<R, T> {
 	R func(T n);
 }
 
-// A simple generic class.
+// A simple generic class
 class MyClass<T> {
 	private T val;
 
-	// A constructor that takes an argument
 	MyClass(T v) {
 		val = v;
 	}
@@ -26,7 +25,7 @@ class MyClass<T> {
 	}
 }
 
-// A simple, non-generic class.
+// A simple, non-generic class
 class MyClass2 {
 	String str;
 
@@ -35,7 +34,8 @@ class MyClass2 {
 		str = s;
 	}
 
-	// The default constructor. This constructor is NOT used by this program.
+	// The default constructor. This constructor
+	// is NOT used by this program.
 	MyClass2() {
 		str = "";
 	}
@@ -48,10 +48,9 @@ class MyClass2 {
 }
 
 class ConstructorRefDemo3 {
-	// A factory method for class objects. The class must have a constructor that
-	// takes one parameter of type T.
-	// R specifies the type of objects being created.
-
+	// A factory method for class objects. The class must
+	// have a constructor that takes one parameter of type T.
+	// R specifies the type of object bieng created.
 	static <R, T> R myClassFactory(MyFunc<R, T> cons, T v) {
 		return cons.func(v);
 	}

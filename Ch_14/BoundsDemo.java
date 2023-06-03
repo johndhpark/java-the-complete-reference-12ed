@@ -27,7 +27,7 @@ class BoundsDemo {
 	public static void main(String[] args) {
 		Integer[] inums = { 1, 2, 3, 4, 5 };
 		Stats<Integer> iOb = new Stats<Integer>(inums);
-		double v = iob.average();
+		double v = iOb.average();
 		System.out.println("iob average is " + v);
 
 		Double[] dnums = { 1.1, 2.2, 3.3, 4.4, 5.5 };
