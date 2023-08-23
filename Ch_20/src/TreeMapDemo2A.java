@@ -1,3 +1,4 @@
+
 // Use thenComparing() to sort by last, then first name.
 import java.util.*;
 
@@ -23,7 +24,6 @@ class CompFirstName implements Comparator<String> {
     }
 }
 
-
 class TreeMapDemo2A {
     public static void main(String[] args) {
         CompLastName compLN = new CompLastName();
@@ -32,13 +32,13 @@ class TreeMapDemo2A {
 
         // Create a tree map.
         TreeMap<String, Double> tm = new TreeMap<>(compFirstThenLast);
-        
+
         // Put elements to the map
         tm.put("John Smith", 123.22);
         tm.put("John Doe", 3434.34);
         tm.put("Jane Baker", 1378.00);
         tm.put("Todd Hall", 99.22);
-        tm.put("Ralph Smith", -19.08);  
+        tm.put("Ralph Smith", -19.08);
 
         Set<Map.Entry<String, Double>> set = tm.entrySet();
 

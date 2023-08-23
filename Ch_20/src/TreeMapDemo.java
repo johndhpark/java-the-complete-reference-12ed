@@ -13,15 +13,14 @@ class TreeMapDemo {
         tm.put("Ralph Smith", -19.08);
 
         // Get a set of entries
-        Set<Map.Entry<String,Double>> set = tm.entrySet();
- 
+        Set<Map.Entry<String, Double>> set = tm.entrySet();
+
         // Display the elements
-        for (Map.Entry<String,Double> me : set) {
+        for (Map.Entry<String, Double> me : set) {
             System.out.print(me.getKey() + ": ");
             System.out.println(me.getValue());
         }
         System.out.println();
-
 
     }
 }

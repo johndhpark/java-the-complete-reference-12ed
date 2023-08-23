@@ -20,5 +20,6 @@ class ArrayDequeDemo {
             System.out.print(adq.pop() + " ");
 
         System.out.println();
+
     }
 }

@@ -1,3 +1,4 @@
+
 // Use a comparator to sort accounts by last name.
 import java.util.*;
 
@@ -29,7 +30,7 @@ class TreeMapDemo2 {
         // Get a set of entries
         Set<Map.Entry<String, Double>> set = tm.entrySet();
 
-        //Display the elements
+        // Display the elements
         for (Map.Entry<String, Double> account : set) {
             System.out.print(account.getKey() + ": ");
             System.out.println(account.getValue());

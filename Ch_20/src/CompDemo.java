@@ -1,17 +1,17 @@
+
 // Use a custom comparator
 import java.util.*;
 
 // A reverse comparator for strings.
 // class MyComp implements Comparator<String> {
 //     public int compare(String aStr, String bStr) {
-        
+
 //         // Reverse the comparision
 //         return aStr.compareTo(bStr);
 //     }
 
 //     // No need to override equals or the default methods.
 // }
-
 
 class CompDemo {
     public static void main(String[] args) {
